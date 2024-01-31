@@ -1,0 +1,133 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'lora', serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 1.2vw;
+    width: 100%;
+    background-color: rgb(109, 135, 221, 0.288);
+}
+#h{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color:blanchedalmond;
+    position: absolute;
+    background-color: black;
+    border: 2px solid;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+#menu{
+      color: lightsteelblue;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+      list-style: none;
+      padding: 0;
+      margin-right: 20px;
+      font-style: oblique;
+}
+.p{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    color: azure;
+}
+.p li {
+    margin-right: 20px;
+    color: azure;
+    font-size: medium;
+    border: 3px solid;
+    border-radius: 10px;
+    background-color: gray;
+}
+.w{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin-right: 20px;
+    font-size: medium;
+    /* margin-left: 5px; */
+    /* margin-right: 5px; */
+}
+.u{
+    display: flex;
+    justify-content: flex-start;
+    background-color: gray;
+    border: 2PX solid white;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 1%;
+    width: fit-content;
+}
+td{
+    border: 1px solid gainsboro;
+}
+#bg{
+    object-fit: cover;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: -1;
+}
+#d{
+    color: black;
+    /* opacity: 0.3; */
+    border: 1px solid;
+    font-size: 25px;
+    margin-right: 10px;
+    margin-left: 10px;   
+}
+.u{
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: start;
+}
+#x{
+    display: flex;
+    justify-content: flex-start;
+    border: 2PX solid black;
+    border-radius: 7px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    /* padding: 1%; */
+    margin-right: 2px;
+}
+#v{
+    color: aliceblue;
+    background-color: black;
+    opacity: 0.8;
+
+}
+#TL{
+    display: flex;
+    justify-content: center;
+    opacity: 0.7;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+}
+#f{
+    font-size: x-large;
+    font-style: italic; 
+}
+#o{
+    size: 30px;
+    font-size: 30px;
+    border: 2px;
+    border-radius: 1px;
+}
